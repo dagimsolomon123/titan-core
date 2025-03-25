@@ -1,7 +1,7 @@
 ---
-title: "How to add/remove categories"
-excerpt: "Learn how to add/remove categories"
-featuredImage: "./images/update-categories.jpg"
+title: "STOCKY mobile app"
+excerpt: "STOCKY mobile app for stock management"
+featuredImage: "./images/update-categories.png"
 publishDate: "2025-02-22"
 publish: true
 categories: ["Theme Usage"]
@@ -9,52 +9,26 @@ categories: ["Theme Usage"]
 seo:
   title: "How to add/remove categories"
   description: "Learn how to add/remove categories"
-  image: "./images/update-categories.jpg"
+  image: "./images/update-categories.png"
 ---
 
-Categories are a crucial part of organizing your content and helping users navigate your site. This post will guide you through the process of editing categories in your theme, using the `categories.ts` file.
+# Inside the Development of Stock Management Mobile App
 
-## Understanding the categories.ts File
+At DY developments, we understand the importance of inventory control for businesses of all types. To help shops, retailers, and wholesalers stay organized and reduce losses, we developed the **Stock Management Mobile App**, an easy-to-use solution for tracking stock levels in real time.
 
-The `categories.ts` file is where your theme's categories are defined. It's a TypeScript file that exports an array of category objects. Each object typically includes:
+## Why It’s Needed
 
-- `name`: The display name of the category.
-- `slug`: A URL-friendly version of the name (used in URLs).
-- `description`: A brief description of the category.
+Many businesses struggle with inventory management, leading to overstocking, shortages, and financial inefficiencies. Traditional tracking methods can be time-consuming and prone to errors. We wanted to create a simple yet effective app that allows shop owners and managers to monitor stock effortlessly.
 
-Here's an example of what a category object looks like:
+## The Challenges We Faced
 
-```typescript
-export const categories = [
-  { name: 'Category 1', slug: 'category-1', description: 'Description of Category 1' },
-  { name: 'Category 2', slug: 'category-2', description: 'Description of Category 2' },
-];
-```
+Building an intuitive stock management system required understanding how different businesses handle inventory daily. We had to ensure real-time tracking, accurate reporting, and easy integration with existing workflows. Making the app user-friendly while providing detailed insights was a key challenge.
 
-## Modifying a Category
+## The Impact
 
-1. Open the `categories.ts` file.
-2. Find the category you want to modify and change its `name`, `slug`, or `description` properties.
+With the Stock Management Mobile App, businesses can track product levels, set alerts for low stock, and optimize purchasing decisions. Shop owners and managers can prevent stock shortages, reduce waste, and maintain better control over their inventory.
 
-For example, to update the description of the "Tech" category:
+## Looking Ahead
 
-```typescript
-export const categories = [
-  { name: 'Tech', slug: 'tech', description: 'All things tech-related' },
-  { name: 'Design', slug: 'design', description: 'Design tips and tutorials' },
-];
-```
+We continue to refine the app, adding features like automated order suggestions and analytics to help businesses optimize their stock management. Our goal is to provide a seamless, stress-free solution that enhances efficiency and profitability across various industries.
 
-## Adding a New Category
-
-1. Open the `categories.ts` file.
-2. Add a new object to the array with the desired `name`, `slug`, and `description`.
-
-For example, to add a new category called "Marketing":
-
-```typescript
-export const categories = [
-  ...existingCategories,
-  { name: 'Marketing', slug: 'marketing', description: 'Marketing tips and tutorials' },
-];
-```

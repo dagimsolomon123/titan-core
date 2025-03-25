@@ -1,4 +1,4 @@
-import { Zap, Shield, Heart, Coffee, Smile, Type, TabletSmartphone, CodeXml } from 'lucide-astro';
+import { Zap, Shield, Heart, Coffee,ChevronsLeftRightEllipsis,Rss,HandCoins, Smile, Grip, TabletSmartphone, CodeXml } from 'lucide-astro';
 
 // Define the LucideIcon type based on the structure of Lucide icons
 type LucideIcon = typeof Zap;
@@ -20,34 +20,34 @@ export const featureLists: Record<string, FeatureList> = {
         id: 'main',
         features: [
             {
-                icon: Zap,
-                title: 'Lightning Fast Performance',
-                description: 'Optimized for speed and performance'
-            },
-            {
-                icon: Shield,
-                title: 'SEO Optimized Structure',
-                description: 'Built with SEO best practices in mind'
+                icon: ChevronsLeftRightEllipsis,
+                title: 'Custom Software Development',
+                description: 'Tailored solutions for businesses.'
             },
             {
                 icon: TabletSmartphone,
-                title: 'Responsive by Default',
-                description: 'Mobile-friendly out of the box'
+                title: 'Mobile App Development',
+                description: 'Apps for mobile platforms.'
             },
             {
-                icon: Smile,
-                title: 'Easy Customization',
-                description: 'Customize the theme to your liking'
+                icon: Rss,
+                title: 'Web Application Development',
+                description: 'Websites and web apps.'
             },
             {
-                icon: Type,
-                title: 'TypeScript Support',
-                description: 'Built with TypeScript in mind'
+                icon: Grip,
+                title: 'Software Maintenance and Support',
+                description: 'software maintainance and supports on our provided software solutions'
+            },
+            {
+                icon: HandCoins,
+                title: 'Software Consultancy',
+                description: ' Expert guidance for software.'
             },
             {
                 icon: CodeXml,
-                title: 'Minimal Dependencies',
-                description: 'Keep your project lightweight'
+                title: 'UI/UX Design',
+                description: ' User-friendly interface designs'
             }
         ]
     },

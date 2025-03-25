@@ -12,26 +12,22 @@ import CtaBanner from '@components/sections/CtaBanner.astro';
 import Faqs from '@components/sections/Faqs.astro';
 import { faqLists } from '@data/faqs';
 import RecentPosts from '@components/sections/RecentPosts.astro';
-import heroImage from '../assets/images/home/default-hero-2.jpg';
+import heroImage from '../assets/images/home/defo.jpg';
 import styleGuideImage from '../assets/images/home/developer.jpg';
 
 const seoTitle = "Modern, High-Performance Astro Theme";
 const seoDescription = "A modern, high-performance Astro theme for developer portfolios and documentation sites.";
 
 const heroContent = {
-    title: 'The Foundation for Beautiful Astro JS Websites',
-    description: 'Titan Core is a minimal, performance-focused Astro JS theme that serves as the perfect foundation for your next web project. Built with clean code and modern best practices, it\'s designed to be extended and customized to your specific needs.',
+    title: ' Innovating Systems, Empowering Tomorrow.',
+    description: 'We craft cutting-edge software solutions that redefine efficiency, innovation, and growth. With a commitment to excellence and a vision for the future, we empower businesses to scale, adapt, and lead in the digital era.',
     buttons: [
         {
             text: 'Get Started',
             link: '/contact',
             target: '_self'
         },
-        {
-            text: 'View on GitHub',
-            link: 'https://github.com/rspisarski/titan-core',
-            target: '_blank'
-        }
+    
     ],
     backgroundImage: heroImage,
     overlayOpacity: 0.2
@@ -39,93 +35,57 @@ const heroContent = {
 
 const featuresSection = {
     eyebrow: "CORE FEATURES",
-    title: "Everything You Need, Nothing You Don't",
-    description: "Titan Core gives you a solid foundation with essential features while staying lightweight and customizable. Start with a clean slate and build exactly what you need without the bloat.",
+    title: "Service We Provide",
+    description: "DY Developments is dedicated to delivering innovative software solutions that drive efficiency and business growth.",
     features: featureLists.main.features,
-    button: {
-        text: "View Theme Info",
-        link: "/theme-info",
-        variant: "primary" as const
-    }
+    
 }
 
 const FooterCta = {
     eyebrow: "Join The Community",
-    title: ' Start Building With Titan Core Today',
-    description: 'Titan Core is open-source and constantly improving. Join our community of developers to contribute, get support, or showcase what you\'ve built.',
+    title: 'Start Work with Us – Innovating Today for Tomorrow Success.',
+    description: 'Start working with us and transform your business with innovative software solutions. At DY Developments, we create custom systems that drive growth, efficiency, and success in the digital world.',
     hideCta: false,
     button: {
-        text: 'Download Titan Core',
-        link: 'https://github.com/rspisarski/titan-core',
+        text: 'get started',
+        link: './contact',
         target: '_blank'
     }
 }
 
-const styleGuideSection = {
-    eyebrow: "Design System",
-    headline: "Consistent & Beautiful Components",
-    description: "Titan Core comes with a complete style guide to ensure your projects maintain visual consistency. From typography to interactive elements, we've carefully crafted each component.",
-    image: {
-        src: styleGuideImage,
-        alt: "Featured image"
-    },
-    buttons: [
-        {
-            text: "Explore Style Guide",
-            link: "/style-guide",
-            variant: "primary" as const
-        }
-    ]
-}
+
 
 const sideBySideStats = {
     eyebrow: "Stats",
-    title: "Built for Speed and Flexibility",
+    title: "stats on how many companies we work",
     description: "Titan Core is designed with performance and developer experience in mind. Our lightweight theme gives you all the essentials without the bloat, letting you build exactly what you need with impressive speed.",
     variant: 'side-by-side' as const,
     stats: statsLists.withContent.stats,
     content: {
-        title: "Built for Speed and Flexibility",
-        description: "Titan Core is designed with performance and developer experience in mind. Our lightweight theme gives you all the essentials without the bloat, letting you build exactly what you need with impressive speed.",
-        button: {
-            text: "Discover Titan Core",
-            link: "/theme-info",
-            variant: "primary" as const
-        }
-    }
-};
-
-const mainCta = {
-    eyebrow: "Build Blocks",
-    title: "Ready-to-Use Components",
-    description: "Save development time with our pre-built, accessible components. Each one is designed to integrate seamlessly with your projects while maintaining excellent performance.",
-    button: {
-        text: "View All Components",
-        link: "/components",
-        variant: "primary" as const,
-        target: "_self" as const
+        title: "STATS ON THE COMPANY WE WORK WITH",
+        description: "At DY Developments, we’ve successfully collaborated with diverse companies, delivering scalable solutions that drive efficiency, growth, and innovation..",
+       
     }
 };
 
 
-const logosSection = {
-    eyebrow: "Our Clients",
-    logos: logoLists.main.logos
-}
+
+
+
 
 const faqsSection = {
     eyebrow: "FAQs",
     title: 'Frequently Asked Questions',
-    description: 'Find answers to common questions about our platform and services.',
+    description: 'Find answers to common questions about our company and services.',
     faqs: faqLists.main.faqs
 }
 
 const recentPostsSection = {
-    eyebrow: "LATEST INSIGHTS",
-    title: " Learn From Our Experience",
-    description: "Explore our latest articles on Astro JS development, theme customization tips, and web performance best practices.",
+    eyebrow: "PROJECT",
+    title: " OUR PROJECTS",
+    description: "This is our project list, featuring innovative software solutions designed to enhance efficiency, drive growth, and deliver exceptional user experiences.",
     button: {
-            text: "View All Posts",
+            text: "View All Projects",
             link: "/blog",
         variant: "primary" as const
     }
@@ -136,9 +96,9 @@ const recentPostsSection = {
     <Hero content={heroContent} />
     <Features content={featuresSection} padding="base" background="light" />
     <RecentPosts content={recentPostsSection} background="base" padding="base" postsToShow={3} category="Theme Usage"/>
-    <SplitPanel content={styleGuideSection} imagePosition="right" background="light" padding="base" />
-    <CtaBanner content={mainCta} variant="contained" background="light" paddingBottom="base" />
-    <Logos content={logosSection} background="base" padding='small'/>
+    
+    
+ 
     <Stats content={sideBySideStats} background='dark' padding="base"/>
     <Faqs content={faqsSection} background="base" padding="base" />
 </Layout>

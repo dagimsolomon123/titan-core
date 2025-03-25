@@ -13,24 +13,24 @@ export const faqLists: Record<string, FaqList> = {
         id: 'main',
         faqs: [
             {
-                question: "Is Titan Core completely free to use?",
-                answer: "Yes, Titan Core is 100% free and open-source. You can use it for personal and commercial projects without any licensing fees."
+                question: "What services does DY Developments offer?",
+                answer: "We offer a wide range of services, including custom software development, mobile app development, web development, cloud solutions, UI/UX design, software consultancy, and system maintenance."
             },
             {
-                question: "How do I customize the color schemes?",
-                answer: "Titan Core comes with 10 pre-built color schemes that can be easily switched through the theme configuration file. For custom colors, you can modify the CSS variables in the `src/styles/global.css` file to match your brand identity."
+                question: " How can we start a project with DY Developments?",
+                answer: "Starting a project with us is simple! Just reach out to us through our contact form or email. We’ll discuss your needs, goals, and how we can create a tailored solution for your business."
             },
             {
-                question: "Do I need to know Astro JS to use this theme?",
-                answer: "Basic familiarity with Astro JS is helpful, but not required. The component-based architecture makes it easy to understand and modify even if you're new to Astro."
+                question: " Do you work with small businesses or only large corporations?",
+                answer: "We work with businesses of all sizes. Whether you’re a startup or a large enterprise, we tailor our solutions to meet your specific needs and objectives."
             },
             {
-                question: "Can I use Titan Core as a starting point for client projects?",
-                answer: "Absolutely! Titan Core is designed to be a foundation theme that you can build upon for client projects. Its clean architecture and minimal approach make it perfect as a starting point for customized websites."
+                question: "How long does it take to develop a custom software solution?",
+                answer: "The timeline varies depending on the complexity of the project. After an initial consultation, we’ll provide a detailed timeline and ensure transparent communication throughout the development process."
             },
             {
-                question: "How often is Titan Core updated?",
-                answer: "We aim to update Titan Core regularly to keep it compatible with the latest Astro JS releases and web standards. Major updates are released quarterly, with smaller fixes and improvements added more frequently. You can star our GitHub repository to stay informed about updates."
+                question: "What kind of support do you provide after the software is launched?",
+                answer: "We offer ongoing maintenance and support services to ensure your software remains updated, secure, and optimized post-launch. Our team is always available to assist with any issues or improvements."
             }
         ]
     }

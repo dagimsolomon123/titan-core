@@ -1,7 +1,7 @@
 ---
-name: "Ares"
+name: "YEABSIRA FITSUM"
 headshot: "./images/ares.jpg"
-jobTitle: "God of War"
+jobTitle: " COO AND DEV"
 publish: true
 order: 3
 linkedin: "https://www.linkedin.com/in/ares/"

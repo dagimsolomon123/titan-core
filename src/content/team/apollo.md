@@ -1,7 +1,7 @@
 ---
-name: "Apollo"
+name: "DAGIM SOLOMON"
 headshot: "./images/apollo.jpg"
-jobTitle: "God of the Sun"
+jobTitle: "CEO AND DEV"
 publish: true
 order: 2
 linkedin: "https://www.linkedin.com/in/apollo/"

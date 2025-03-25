@@ -1,70 +1,36 @@
 ---
-title: "Building pages with Titan Core components"
-excerpt: "Learn how to build pages with Titan Core components"
-featuredImage: "./images/building-pages.jpg"
+title: "Kichen order Management system"
+excerpt: "Kichen order Management system for hotel and resturant that will increase efficiency"
+featuredImage: "./images/building-pages.png"
 publishDate: "2025-02-22"
 publish: true
 categories: ["Theme Usage"]
 
 seo:
-  title: "How to build pages with Titan Core components"
-  description: "Learn how to build pages with Titan Core components"
-  image: "./images/building-pages.jpg"
+  title: "Kichen order Management system"
+  description: "Kichen order Management system for hotel and resturant that will increase efficiency"
+  image: "./images/building-pages.png"
 ---
 
-## Titan Core Components
+# Inside the Development of Kitchen Order Management System
 
-Titan Core components are a set of components that are used to build pages. They are a collection of components that are used to build pages.
+At DY management, we are always looking for ways to improve efficiency in the food service industry. One of our key in-house projects is the **Kitchen Order Management System**, designed to help restaurants streamline their kitchen operations and enhance communication between staff.
 
-## List of Titan Core Page Components
+## The Need for a Better System
 
-- components/sections/Faqs.astro
-- components/sections/CtaBanner.astro
-- components/sections/Logos.astro
-- components/sections/SplitPanel.astro
-- components/sections/Stats.astro
+Managing kitchen orders can be chaotic. Traditional methods often lead to lost tickets, miscommunication, and long wait times. We wanted to create a system that ensures every order is tracked, prepared efficiently, and delivered on time.
 
-## How to use Titan Core components
+## The Challenges We Faced
 
-To use a Titan Core component, you need to import the component into your page.
+Building a system that fits the fast-paced nature of restaurant kitchens required careful planning. From understanding workflow dynamics to ensuring orders are processed smoothly, we encountered various obstacles. Adapting the system to different restaurant sizes and types also required flexibility and continuous improvements.
 
-```javascript
----
-import { SplitPanel } from "@titan-core/components";
----
-```
+## The Impact
 
-After importing the component, create a new `const` object that contains the data for the component.
+Since implementing the Kitchen Order Management System, restaurants using it have reported fewer errors, faster service, and improved kitchen coordination. The system has helped chefs focus on preparation while waitstaff stay updated on order status without constant back-and-forth communication.
 
-```javascript
-const aboutSection = {
-    eyebrow: "About",
-    headline: "About Titan Core",
-    subheadline: "We are a team of developers who are passionate about building amazing websites with ease.",
-    description: "Our platform is designed to help developers and agencies build amazing websites with ease. Packed with features and optimized for performance.",
-    image: {
-        src: "/home/about.jpg",
-        alt: "Featured image"
-    },
-    buttons: [
-        {
-            text: "Get Started",
-            link: "/contact",
-            variant: "primary" as const
-        },
-        {
-            text: "Learn More",
-            link: "/about",
-            variant: "secondary" as const
-        }
-    ]
-}
-```
+## Looking Ahead
 
-When this is created we can then add this within the `<Layout>` component.
+We continue to refine the system, adding features that make restaurant operations even more seamless. As we expand its capabilities, we remain committed to making kitchen management more efficient and stress-free for businesses of all sizes.
 
-```javascript
-<Layout>
-    <SplitPanel content={aboutSection} imagePosition="right" background="light" padding="base" />
-</Layout>
-```
+
+

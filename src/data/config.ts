@@ -14,8 +14,8 @@ export const siteConfig = {
 
 export const SEO = {
   Separator: '|',
-  SiteName: 'Titan Core',
-  defaultDescription: 'A modern, high-performance Astro JS theme',
+  SiteName: 'DY Developments',
+  defaultDescription: 'Innovating Systems, Empowering Tomorrow.',
 };
   
 export const blogSetting = {

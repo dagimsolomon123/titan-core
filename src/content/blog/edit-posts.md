@@ -1,67 +1,35 @@
 ---
-title: "How to edit blog posts in Astro"
-excerpt: "Learn how to edit posts in Astro"
-featuredImage: "./images/edit-posts.jpg"
+title: "GUEST CREDIT MANAGMENT SOFTWARE"
+excerpt: "Credit managemnet software for resturant and hotel"
+featuredImage: "./images/edit-posts.png"
 publishDate: "2025-02-22"
 publish: true
 categories: ["Theme Usage"]
 
 seo:
-  title: "How to edit posts in Astro"
-  description: "Learn how to edit posts in Astro"
+  title: "GUEST CREDIT MANAGMENT SOFTWARE"
+  description: "Credit managemnet software for resturant and hotel"
 ---
 
-## Steps to Edit a Blog Post
 
-### Accessing the File
-Navigate to your blog post file in the **src/content/blog/** directory. The filename typically matches your post's URL slug (e.g., my-first-post.md).
 
-### Editing Frontmatter
-The frontmatter is the metadata section at the top of your markdown file, contained between the --- markers. Here's what you can modify:
+# Inside the Development of Guest Credit Management App
 
-**title**: The post's main heading  
-**excerpt**: A brief summary of your post  
-**featuredImage**: Path to the post's main image (automatically used for SEO too)  
-**publishDate**: Original publication date  
-**publish**: true  
-**categories**: Array of relevant categories
+At DY developments, we are committed to providing innovative solutions for the restaurant industry. One of our latest in-house projects is the **Guest Credit Management App**, designed to help restaurants offer and manage credit for their loyal customers with ease.
 
-```javascript
-title: "How to edit blog posts in Astro"
-excerpt: "Learn how to edit posts in Astro"
-featuredImage: "./images/edit-posts.jpg"
-publishDate: "2024-03-10"
-publish: true
-categories: ["Theme Usage"]
+## Why It Matters
 
-seo:
-  title: "Custom SEO Title (Optional)"
-  description: "Custom SEO Description (Optional)"
-```
+Many restaurants have regular customers who prefer to dine on credit, but keeping track of balances, payments, and due dates can be a hassle. Traditional methods like handwritten logs or spreadsheets often lead to errors and miscommunication. We wanted to create a system that simplifies this process while maintaining trust between restaurants and their guests.
 
-#### Image Paths
+## The Challenges We Faced
 
-For the `featuredImage`, use a relative path to the image in your content folder:
-- `"./images/my-image.jpg"` - Image in the blog/images folder
+Developing a reliable and user-friendly credit management system meant understanding how different restaurants handle guest accounts. Balancing ease of use with security and accuracy was crucial. Ensuring that restaurant owners could track and manage credit without adding extra workload was a key focus.
 
-#### SEO Settings
+## The Impact
 
-The `seo` section is optional and allows you to customize how your post appears in search engines and social media:
+With the Guest Credit Management App, restaurants can now track credit transactions effortlessly, reduce disputes, and improve customer relationships. Guests enjoy the convenience of dining without immediate payment, while owners have full visibility into outstanding balances and repayments.
 
-- **title**: Custom title for SEO (if different from post title)
-- **description**: Custom description for SEO (if different from excerpt)
-- **image**: Custom image for SEO (if different from featured image)
+## What’s Next
 
-Your featured image is automatically used for SEO and social sharing, so you typically don't need to specify a separate SEO image.
+We continue to enhance the app with features that improve efficiency and user experience. Our goal is to make guest credit management seamless, helping restaurants build stronger relationships with their valued customers.
 
-### Editing Content
-
-Below the frontmatter will contain the content of the post. This content is rendered out on your slug page (**/src/pages/blog/[slug].astro**).
-
-## Astro Docs
-
-Astro contains great documentation on editing blog post content. Listed below are links to the relevant sections:
-
-- [Astro Content](https://docs.astro.build/en/components/content/)
-- [Astro Frontmatter](https://docs.astro.build/en/components/frontmatter/)
-- [Astro Markdown](https://docs.astro.build/en/components/markdown/)

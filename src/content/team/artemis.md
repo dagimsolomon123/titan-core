@@ -1,7 +1,7 @@
 ---
-name: "Artemis"
+name: "NARDOS WENDIMAGEGHE"
 headshot: "./images/artemis.jpg"
-jobTitle: "Goddess of the Hunt"
+jobTitle: "marketing manager"
 publish: true
 order: 4
 linkedin: "https://www.linkedin.com/in/artemis/"

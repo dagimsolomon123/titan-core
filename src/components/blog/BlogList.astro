@@ -28,36 +28,7 @@ const activeCategories = categories.filter((category) =>
         data-aos="fade-in"
         data-aos-delay="100"
     >
-        <div class="w-full">
-            <h2 class="text-lg font-semibold mb-4">Filter by Categories:</h2>
-            <div class="flex flex-wrap gap-2">
-                <a
-                    href="/blog"
-                    class={`px-4 sm:px-6 py-2 sm:py-3 leading-none rounded-md text-small flex items-center justify-center transition-colors border border-primary duration-200 ${
-                        !currentCategory
-                            ? 'bg-primary text-body-dark shadow-md'
-                            : 'bg-background text-body-base hover:bg-background-light hover:text-body-light'
-                    }`}
-                >
-                    Show All
-                </a>
-                {
-                    activeCategories.map((category) => (
-                        <a
-                            href={`/category/${category.slug}`}
-                            class={`px-4 sm:px-6 py-2 sm:py-3 leading-none rounded-md text-small flex items-center justify-center transition-colors border border-primary duration-200 ${
-                                currentCategory === category.name
-                                    ? 'bg-primary text-body-dark shadow-md'
-                                    : 'bg-background text-body-base hover:bg-background-light hover:text-body-light'
-                            }`}
-                            title={category.description}
-                        >
-                            {category.name}
-                        </a>
-                    ))
-                }
-            </div>
-        </div>
+        
         <p class="text-small text-body-base text-left sm:text-right whitespace-nowrap">
             Showing <span class="font-bold text-primary">{posts.length}</span> of <span class="font-bold text-primary"
                 >{allPosts.length}</span
